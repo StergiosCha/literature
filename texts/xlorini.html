@@ -12,215 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #faf8f4;
-    --bg-2: #f2efe8;
-    --text: #211f1c;
-    --muted: #8b867e;
-    --rule: #e2ddd3;
-    --accent: #4a7c74;
-    --accent-2: #b08d57;
-    --shadow: rgba(33, 31, 28, 0.06);
-  }
-  html[data-theme="dark"] {
-    --bg: #161511;
-    --bg-2: #1d1b17;
-    --text: #e8e4dc;
-    --muted: #8b867e;
-    --rule: #2d2a24;
-    --accent: #7fb3a9;
-    --accent-2: #c9a878;
-    --shadow: rgba(0, 0, 0, 0.35);
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: "Literata", Georgia, serif;
-    font-size: 1.175rem;
-    line-height: 1.8;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    transition: background 0.4s ease, color 0.4s ease;
-  }
-  #progress {
-    position: fixed;
-    top: 0; left: 0;
-    height: 3px;
-    width: 100%;
-    background: linear-gradient(90deg, var(--accent), var(--accent-2));
-    transform-origin: 0 50%;
-    transform: scaleX(0);
-    z-index: 30;
-  }
-  /* ---------- toolbar ---------- */
-  #toolbar {
-    position: fixed;
-    top: 1rem; right: 1rem;
-    display: flex;
-    gap: 0.5rem;
-    z-index: 20;
-    opacity: 0.85;
-  }
-  #toolbar button {
-    width: 2.4rem; height: 2.4rem;
-    border-radius: 50%;
-    border: 1px solid var(--rule);
-    background: var(--bg);
-    color: var(--text);
-    font-family: inherit;
-    font-size: 0.95rem;
-    cursor: pointer;
-    box-shadow: 0 2px 8px var(--shadow);
-    transition: transform 0.15s ease, background 0.3s ease;
-  }
-  #toolbar button:hover { transform: translateY(-2px); }
-  /* ---------- hero ---------- */
-  #hero {
-    position: relative;
-    min-height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    background: var(--bg-2);
-    transition: background 0.4s ease;
-  }
-  #net {
-    position: absolute;
-    inset: 0;
-    width: 100%; height: 100%;
-    opacity: 0.5;
-  }
-  .hero-inner {
-    position: relative;
-    padding: 2rem 1.5rem;
-    max-width: 42rem;
-  }
-  .kicker {
-    font-size: 0.78rem;
-    letter-spacing: 0.35em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 2rem;
-  }
-  h1 {
-    font-family: "GFS Didot", "Literata", serif;
-    font-weight: 400;
-    font-size: clamp(2.6rem, 9vw, 4.6rem);
-    line-height: 1.12;
-    letter-spacing: 0.01em;
-    margin-bottom: 1.75rem;
-  }
-  .byline {
-    font-style: italic;
-    font-size: 1.15rem;
-    color: var(--muted);
-  }
-  .byline::before, .byline::after {
-    content: "—";
-    color: var(--rule);
-    margin: 0 0.6em;
-  }
-  .meta {
-    margin-top: 1.4rem;
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
-    color: var(--muted);
-  }
-  .meta.collection {
-    margin-top: 2rem;
-    font-size: 0.95rem;
-    letter-spacing: 0.02em;
-  }
-  .meta.collection em { color: var(--text); }
-  .meta.collection + .meta { margin-top: 0.5rem; }
-  .scroll-hint {
-    position: absolute;
-    bottom: 2rem; left: 50%;
-    transform: translateX(-50%);
-    color: var(--muted);
-    font-size: 1.4rem;
-    text-decoration: none;
-    animation: bob 2.4s ease-in-out infinite;
-  }
-  @keyframes bob {
-    0%, 100% { transform: translate(-50%, 0); }
-    50% { transform: translate(-50%, 8px); }
-  }
-  /* ---------- article ---------- */
-  main {
-    max-width: 34em;
-    margin: 0 auto;
-    padding: 5rem 1.5rem 4rem;
-  }
-  article p {
-    margin: 0;
-    text-indent: 1.6em;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-  }
-  article p.reveal {
-    opacity: 0;
-    transform: translateY(12px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-  }
-  article p.reveal.shown { opacity: 1; transform: none; }
-  article > p:first-of-type { text-indent: 0; }
-  article > p:first-of-type::first-letter {
-    font-family: "GFS Didot", serif;
-    font-size: 4.3em;
-    float: left;
-    line-height: 0.8;
-    padding: 0.08em 0.14em 0 0;
-    color: var(--accent);
-  }
-  .divider {
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0;
-  }
-  .divider svg { display: block; }
-  .divider .node { fill: var(--accent); }
-  .divider .node-b { fill: var(--accent-2); }
-  .divider .edge { stroke: var(--muted); stroke-width: 1; opacity: 0.6; }
-  .fin {
-    margin-top: 4.5rem;
-    text-align: center;
-  }
-  .fin .word {
-    font-family: "GFS Didot", serif;
-    letter-spacing: 0.4em;
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-top: 1rem;
-  }
-  footer {
-    border-top: 1px solid var(--rule);
-    margin-top: 4rem;
-    padding: 1.75rem 1.5rem 3rem;
-    text-align: center;
-    font-size: 0.85rem;
-    color: var(--muted);
-  }
-  ::selection { background: var(--accent); color: var(--bg); }
-  @media (prefers-reduced-motion: reduce) {
-    .scroll-hint { animation: none; }
-    article p.reveal { opacity: 1; transform: none; transition: none; }
-    html { scroll-behavior: auto; }
-  }
-  @media print {
-    #progress, #toolbar, #net, .scroll-hint { display: none; }
-    #hero { min-height: auto; background: #fff; }
-    body { font-size: 11.5pt; background: #fff; color: #000; }
-    main { padding: 1rem 0; max-width: none; }
-    article p.reveal { opacity: 1; transform: none; }
-  }
-</style>
+<link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
 <div id="progress" aria-hidden="true"></div>
@@ -233,6 +25,7 @@
 <header id="hero">
   <canvas id="net" aria-hidden="true"></canvas>
   <div class="hero-inner">
+    <img class="hero-cover" src="../covers/logikis.jpg" alt="Εξώφυλλο «Ιστορίες Απλής Λογικής και Λίγης Θλίψης»" onerror="this.remove()">
     <p class="kicker">Διήγημα</p>
     <h1>Χλωρίνη<br>δώδεκα κιλά</h1>
     <p class="byline">Στέργιος Χατζηκυριακίδης</p>
@@ -242,7 +35,8 @@
   <a class="scroll-hint" href="#story" aria-label="Μετάβαση στο κείμενο">↓</a>
 </header>
 
-<main id="story">
+<main class="reader" id="story">
+  <a class="backlink" href="../index.html">← Όλα τα κείμενα</a>
   <article>
     <p>Όταν έθαψε τη μάνα της, της είχε απομείνει μόνο ο Δημητρίου για το πτυχίο: Τοπολογία ΙΙ. Τρίτη φορά θα το έδινε, τρίτη φορά θα έκλαιγε. Θα κρατούσε μερικά δάκρυα για τη μαμά της, ενώ έπαιρνε το αυτοκίνητο με γενική κατεύθυνση δυτικά. Στον Νομό Ημαθίας θα θαύμαζε μερικά εκατομμύρια κουνούπια που στριφογύριζαν γύρω από ένα αόρατο σύννεφο υγρασίας, στον Νομό Κοζάνης τα γυμνά βουνά της Σιάτιστας, που οι ντόπιοι λένε ότι οι Σιατιστινές γυναίκες είναι τόσο καθαρές ώστε τα σφουγγάρισαν κι αυτά, στα Γρεβενά δεν θα σταματούσε να φάει, παρότι θα πεινούσε, και φτάνοντας στα Γιάννενα θα τηλεφωνούσε στον αδερφό της για να επιβεβαιώσει ότι όντως η μαμά της πέθανε. Είχε όντως πεθάνει. Άλλες τρεις φορές που πέθανε η μάνα της, η Χρυσούλα έπαιρνε το αυτοκίνητό της, έφτανε στο κακοτράχαλο χωριό της στα βαθιά Τζουμέρκα, και η μαμά της ‒ω του θαύματος!‒ ήταν ζωντανή και απλώς της έλειπαν τα παιδιά της. Η Χρυσούλα νόμιζε ότι η μάνα της δεν θα πέθαινε ποτέ στ’ αλήθεια, με τόσους τάχα θανάτους της που είχε ζήσει. Οι ντεμέκ θάνατοι της μαμάς μαζί με την Αλγεβρική Τοπολογία ήταν οι μοναδικές δύο σταθερές στη ζωή της. Όλα αυτά βέβαια μέχρι να πεθάνει όντως η μαμά και η μία σταθερά να πάει στον διάολο και η Χρυσούλα στο παντελώς απομονωμένο και άλλο τόσο άγνωστο χωριό στο πιο κακοτράχαλο μέρος των Τζουμέρκων, στα όρια των νομών Ιωαννίνων και Άρτας.</p>
     <p>Στο σπίτι την περίμενε ο αδερφός της στην πόρτα. Ο πατέρας τους ήταν μέσα, δίπλα στο εβένινο φέρετρο με ακουμπισμένη τη φωτογραφία της γυναίκας του. Δεν έκλαιγε. Είχε κλάψει αρκετά τις προηγούμενες ώρες, δεν μπορούσε παραπάνω. Υπάρχει πάντα ένα ανώτατο όριο που μπορεί κάποιος να κάνει κάτι, όλα έχουν το σημείο που μπορούν να γίνουν τοξικά και επικίνδυνα. Το ανώτατο όριο στην Άλγεβρα είναι η μεγαλύτερη τιμή για όλες τις τιμές τις οποίες ορίζει μια συνάρτηση. Με απλά λόγια, από κει και έπειτα η συνάρτηση πάπαλα, δεν έχει άλλες τιμές. Για παράδειγμα, αν πάρεις τη συνάρτηση Μπρόκολο, υπάρχει μια ανώτατη τιμή η οποία, αν την ξεπεράσεις, μπορεί να σε σκοτώσει. Ξέρω ’γω, πόσα κιλά μπρόκολο πρέπει να φάει κανείς για να πεθάνει, έξι κιλά, εφτά, οχτώ; Γιατί η ιστορία με την κατηγοριοποίηση σε υγιεινά και μη μαθηματικώς δεν στέκει, διότι για κάποιο πεδίο τιμών όλα τα τρόφιμα είναι υγιεινά και για κάποιο άλλο θανατηφόρα. Με μια κατάλληλη αφαίρεση δηλαδή, το μπρόκολο δεν έχει καμία διαφορά από τις χοιρινές τσιγαρίδες. Τριάντα κιλά μπρόκολο μπορεί να είναι εξίσου θανατηφόρα με ένα κιλό τσιγαρίδες. Δεν ξέρω αν έχουν διερευνηθεί ποτέ αυτές οι τιμές, η Χρυσούλα πάντως το είχε σκεφτεί αρκετές φορές. Γιατί Άλγεβρα ήξερε, Αλγεβρική Τοπολογία δεν ήξερε. «Άλλο το ένα, άλλο το άλλο», έλεγε.</p>
@@ -331,7 +125,7 @@
       </svg>
       <p class="word">Τέλος</p>
     </div>
-  </article>
+    </article>
 </main>
 
 <footer>
@@ -339,132 +133,6 @@
   <p>© 2026 Στέργιος Χατζηκυριακίδης · Με επιφύλαξη παντός δικαιώματος</p>
 </footer>
 
-<script>
-(function () {
-  /* ----- progress bar ----- */
-  var bar = document.getElementById('progress');
-  function progress() {
-    var h = document.documentElement;
-    var max = h.scrollHeight - h.clientHeight;
-    bar.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
-  }
-  addEventListener('scroll', progress, { passive: true });
-  addEventListener('resize', progress, { passive: true });
-  progress();
-
-  /* ----- theme toggle (in-memory, starts from system preference) ----- */
-  var root = document.documentElement;
-  var dark = matchMedia('(prefers-color-scheme: dark)').matches;
-  function applyTheme() { root.setAttribute('data-theme', dark ? 'dark' : 'light'); }
-  applyTheme();
-  document.getElementById('theme-btn').addEventListener('click', function () {
-    dark = !dark; applyTheme();
-  });
-
-  /* ----- font size ----- */
-  var size = 100;
-  function applySize() { root.style.fontSize = size + '%'; }
-  document.getElementById('font-plus').addEventListener('click', function () {
-    size = Math.min(size + 8, 132); applySize();
-  });
-  document.getElementById('font-minus').addEventListener('click', function () {
-    size = Math.max(size - 8, 84); applySize();
-  });
-
-  /* ----- gentle reveal of paragraphs ----- */
-  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var paras = document.querySelectorAll('article p');
-  if (!reduced && 'IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) { e.target.classList.add('shown'); io.unobserve(e.target); }
-      });
-    }, { rootMargin: '0px 0px -5% 0px' });
-    paras.forEach(function (p) { p.classList.add('reveal'); io.observe(p); });
-  }
-
-  /* ----- topological network in the hero ----- */
-  var canvas = document.getElementById('net');
-  var ctx = canvas.getContext('2d');
-  var nodes = [];
-  var N = 42, LINK = 130;
-  var seedState = 12345;
-  function rnd() { /* deterministic-ish PRNG so the layout is stable */
-    seedState = (seedState * 16807) % 2147483647;
-    return seedState / 2147483647;
-  }
-  function resize() {
-    var r = canvas.parentElement.getBoundingClientRect();
-    canvas.width = r.width * devicePixelRatio;
-    canvas.height = r.height * devicePixelRatio;
-    ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
-  }
-  function init() {
-    nodes = [];
-    var r = canvas.parentElement.getBoundingClientRect();
-    for (var i = 0; i < N; i++) {
-      nodes.push({
-        x: rnd() * r.width,
-        y: rnd() * r.height,
-        vx: (rnd() - 0.5) * 0.25,
-        vy: (rnd() - 0.5) * 0.25,
-        s: 1.4 + rnd() * 1.8,
-        warm: rnd() > 0.72
-      });
-    }
-  }
-  function colors() {
-    var s = getComputedStyle(root);
-    return {
-      a: s.getPropertyValue('--accent').trim(),
-      b: s.getPropertyValue('--accent-2').trim(),
-      m: s.getPropertyValue('--muted').trim()
-    };
-  }
-  function draw() {
-    var r = canvas.parentElement.getBoundingClientRect();
-    ctx.clearRect(0, 0, r.width, r.height);
-    var c = colors();
-    for (var i = 0; i < N; i++) {
-      for (var j = i + 1; j < N; j++) {
-        var dx = nodes[i].x - nodes[j].x, dy = nodes[i].y - nodes[j].y;
-        var d = Math.sqrt(dx * dx + dy * dy);
-        if (d < LINK) {
-          ctx.globalAlpha = 0.14 * (1 - d / LINK);
-          ctx.strokeStyle = c.m;
-          ctx.lineWidth = 1;
-          ctx.beginPath();
-          ctx.moveTo(nodes[i].x, nodes[i].y);
-          ctx.lineTo(nodes[j].x, nodes[j].y);
-          ctx.stroke();
-        }
-      }
-    }
-    for (var k = 0; k < N; k++) {
-      var n = nodes[k];
-      ctx.globalAlpha = 0.5;
-      ctx.fillStyle = n.warm ? c.b : c.a;
-      ctx.beginPath();
-      ctx.arc(n.x, n.y, n.s, 0, Math.PI * 2);
-      ctx.fill();
-    }
-    ctx.globalAlpha = 1;
-  }
-  function step() {
-    var r = canvas.parentElement.getBoundingClientRect();
-    for (var i = 0; i < N; i++) {
-      var n = nodes[i];
-      n.x += n.vx; n.y += n.vy;
-      if (n.x < -10) n.x = r.width + 10; if (n.x > r.width + 10) n.x = -10;
-      if (n.y < -10) n.y = r.height + 10; if (n.y > r.height + 10) n.y = -10;
-    }
-    draw();
-    if (!reduced) requestAnimationFrame(step);
-  }
-  resize(); init();
-  addEventListener('resize', function () { resize(); draw(); });
-  if (reduced) { draw(); } else { requestAnimationFrame(step); }
-})();
-</script>
+<script src="../assets/reader.js"></script>
 </body>
 </html>

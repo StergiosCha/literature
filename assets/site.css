@@ -1,0 +1,344 @@
+/* =========================================================
+   Στέργιος Χατζηκυριακίδης — κοινό stylesheet
+   Χρησιμοποιείται από την αρχική (index.html) και από
+   κάθε σελίδα κειμένου μέσα στο texts/.
+   ========================================================= */
+
+:root {
+  --bg: #faf8f4;
+  --bg-2: #f2efe8;
+  --text: #211f1c;
+  --muted: #8b867e;
+  --rule: #e2ddd3;
+  --accent: #4a7c74;   /* πράσινο — χλωρίνη */
+  --accent-2: #b08d57; /* ώχρα — χώμα */
+  --shadow: rgba(33, 31, 28, 0.06);
+  --card: #ffffff;
+}
+html[data-theme="dark"] {
+  --bg: #161511;
+  --bg-2: #1d1b17;
+  --text: #e8e4dc;
+  --muted: #8b867e;
+  --rule: #2d2a24;
+  --accent: #7fb3a9;
+  --accent-2: #c9a878;
+  --shadow: rgba(0, 0, 0, 0.35);
+  --card: #1d1b17;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Literata", Georgia, serif;
+  font-size: 1.175rem;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+a { color: inherit; }
+
+/* ---------- progress bar ---------- */
+#progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px; width: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  z-index: 30;
+}
+
+/* ---------- toolbar ---------- */
+#toolbar {
+  position: fixed;
+  top: 1rem; right: 1rem;
+  display: flex; gap: 0.5rem;
+  z-index: 20; opacity: 0.85;
+}
+#toolbar button {
+  width: 2.4rem; height: 2.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: transform 0.15s ease, background 0.3s ease;
+}
+#toolbar button:hover { transform: translateY(-2px); }
+
+/* ---------- hero (κοινό σε αρχική & κείμενα) ---------- */
+#hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: var(--bg-2);
+  transition: background 0.4s ease;
+}
+#hero.short { min-height: 80vh; }
+#net {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  opacity: 0.5;
+}
+.hero-inner {
+  position: relative;
+  padding: 2rem 1.5rem;
+  max-width: 46rem;
+}
+.hero-cover {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto 1.75rem;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px var(--shadow), 0 2px 8px var(--shadow);
+}
+.kicker {
+  font-size: 0.78rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 2rem;
+}
+h1 {
+  font-family: "GFS Didot", "Literata", serif;
+  font-weight: 400;
+  font-size: clamp(2.6rem, 9vw, 4.6rem);
+  line-height: 1.12;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.75rem;
+}
+.byline {
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--muted);
+}
+.byline.dash::before, .byline.dash::after {
+  content: "—";
+  color: var(--rule);
+  margin: 0 0.6em;
+}
+.meta {
+  margin-top: 1.4rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.meta.collection {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+.meta.collection em { color: var(--text); }
+.meta.collection + .meta { margin-top: 0.5rem; }
+.lead {
+  margin-top: 1.75rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.scroll-hint {
+  position: absolute;
+  bottom: 2rem; left: 50%;
+  transform: translateX(-50%);
+  color: var(--muted);
+  font-size: 1.4rem;
+  text-decoration: none;
+  animation: bob 2.4s ease-in-out infinite;
+}
+@keyframes bob {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, 8px); }
+}
+
+/* ---------- back link ---------- */
+.backlink {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-decoration: none;
+}
+.backlink:hover { color: var(--accent); }
+
+/* ---------- article (σελίδες κειμένων) ---------- */
+main.reader {
+  max-width: 34em;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+article p {
+  margin: 0;
+  text-indent: 1.6em;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+article p.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+article p.reveal.shown { opacity: 1; transform: none; }
+article > p:first-of-type { text-indent: 0; }
+article > p:first-of-type::first-letter {
+  font-family: "GFS Didot", serif;
+  font-size: 4.3em;
+  float: left;
+  line-height: 0.8;
+  padding: 0.08em 0.14em 0 0;
+  color: var(--accent);
+}
+article em { }
+
+/* ---------- scene divider ---------- */
+.divider {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.divider svg { display: block; }
+.divider .node { fill: var(--accent); }
+.divider .node-b { fill: var(--accent-2); }
+.divider .edge { stroke: var(--muted); stroke-width: 1; opacity: 0.6; }
+
+/* ---------- fin ---------- */
+.fin { margin-top: 4.5rem; text-align: center; }
+.fin .word {
+  font-family: "GFS Didot", serif;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 1rem;
+}
+
+/* ---------- library (αρχική σελίδα) ---------- */
+main.library {
+  max-width: 44em;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 5rem;
+}
+.section-label {
+  font-family: "GFS Didot", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.texts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.text-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 1.6rem 1.8rem;
+  box-shadow: 0 3px 14px var(--shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.text-card .tc-cover {
+  flex: 0 0 auto;
+  width: 78px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px var(--shadow);
+  background: var(--bg-2);
+}
+.text-card .tc-body { flex: 1 1 auto; min-width: 0; }
+@media (max-width: 460px) {
+  .text-card .tc-cover { width: 60px; height: 86px; }
+}
+.text-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px var(--shadow);
+  border-color: var(--accent);
+}
+.text-card .tc-kind {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.text-card h2 {
+  font-family: "GFS Didot", "Literata", serif;
+  font-weight: 400;
+  font-size: 1.85rem;
+  line-height: 1.2;
+  margin: 0.5rem 0 0.4rem;
+}
+.text-card .tc-blurb {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.text-card .tc-foot {
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.text-card .tc-foot em { font-style: italic; }
+.empty {
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  padding: 2rem 0;
+}
+.intro {
+  text-align: center;
+  color: var(--muted);
+  max-width: 30em;
+  margin: 0 auto 3.5rem;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+/* ---------- footer ---------- */
+footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 4rem;
+  padding: 1.75rem 1.5rem 3rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+footer em { font-style: italic; }
+
+::selection { background: var(--accent); color: var(--bg); }
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-hint { animation: none; }
+  article p.reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
+@media print {
+  #progress, #toolbar, #net, .scroll-hint, .backlink { display: none; }
+  #hero { min-height: auto; background: #fff; }
+  body { font-size: 11.5pt; background: #fff; color: #000; }
+  main.reader { padding: 1rem 0; max-width: none; }
+  article p.reveal { opacity: 1; transform: none; }
+}
