@@ -1,0 +1,28 @@
+{
+  "name": "literature",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Στέργιος Χατζηκυριακίδης, λογοτεχνικός ιστότοπος",
+  "scripts": {
+    "dev": "vite",
+    "gen:seo": "node scripts/gen-seo.mjs",
+    "prebuild": "npm run gen:seo",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/gfs-didot": "^5.2.6",
+    "@fontsource/literata": "^5.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

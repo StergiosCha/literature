@@ -1,0 +1,429 @@
+[
+ {
+  "id": "2025-12-13-themelio",
+  "date": "2025-12-13",
+  "date_precision": "day",
+  "book": [
+   "istories-aplis-logikis"
+  ],
+  "title": "Παρουσίαση του βιβλίου «Ιστορίες Απλής Λογικής και Λίγης Θλίψης»",
+  "venue": "Θεμέλιο",
+  "city": "Αθήνα",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Δώρα Κουντουρά",
+    "role": "φιλόλογος"
+   },
+   {
+    "name": "Αλέξανδρος Κουτσογιάννης",
+    "role": "Αναπλ. Καθηγητής Πολιτικής Επιστήμης, Παν. Πειραιώς"
+   },
+   {
+    "name": "Βασίλης Πετίκας",
+    "role": "υπ. διδάκτορας ΝΕ Φιλολογίας"
+   },
+   {
+    "name": "Αλέξανδρος Χατζής",
+    "role": "σκηνοθέτης"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2024-12-29-cafe-lotos",
+  "date": "2024-12-29",
+  "date_precision": "day",
+  "book": [
+   "texniti-noimosyni-llm"
+  ],
+  "title": "Παρουσίαση του βιβλίου «Τεχνητή Νοημοσύνη και Μεγάλα Γλωσσικά Μοντέλα»",
+  "venue": "Café Lotos",
+  "city": "Γρεβενά",
+  "country": "GR",
+  "speakers": [],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2025-03-27-enaestro",
+  "date": "2025-03-27",
+  "date_precision": "day",
+  "book": [
+   "texniti-noimosyni-llm"
+  ],
+  "title": "Παρουσίαση του βιβλίου «Τεχνητή Νοημοσύνη και Μεγάλα Γλωσσικά Μοντέλα»",
+  "venue": "Enaestro",
+  "city": "Αθήνα",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Μαρία Γαβριηλίδου",
+    "role": "ΙΕΛ"
+   },
+   {
+    "name": "Γιώργος Πολυμενέας",
+    "role": "δημοσιογράφος"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2024-grover2-thessaloniki",
+  "date": "2024",
+  "date_precision": "year",
+  "book": [
+   "grover-2-i-yposimeiosi"
+  ],
+  "title": "Παρουσίαση του μυθιστορήματος «Γκρόβερ 2: Η Υποσημείωση» στη Θεσσαλονίκη",
+  "venue": "Ζώγια",
+  "city": "Θεσσαλονίκη",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Βασίλης Τσιγαρίδας",
+    "role": "συγγραφέας"
+   },
+   {
+    "name": "Μαρία Θεοχάρη",
+    "role": "μεταφράστρια"
+   },
+   {
+    "name": "Ζήσης Σέγκλιας",
+    "role": "συνθέτης"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2024-grover2-grevena",
+  "date": "2024",
+  "date_precision": "year",
+  "book": [
+   "grover-2-i-yposimeiosi"
+  ],
+  "title": "Παρουσίαση του μυθιστορήματος «Γκρόβερ 2: Η Υποσημείωση» στα Γρεβενά",
+  "venue": "Fuit Art Cafe",
+  "city": "Γρεβενά",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Κατερίνα Βάιου",
+    "role": "εκπαιδευτικός"
+   },
+   {
+    "name": "Αναστασία Νάτσινα",
+    "role": "Αναπλ. Καθηγήτρια ΝΕ Φιλολογίας"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "https://www.facebook.com/stergios.chatzikyriakidis/videos/403212219383799",
+  "upcoming": false
+ },
+ {
+  "id": "2024-03-21-enaestro-exarchia",
+  "date": "2024-03-21",
+  "date_precision": "day",
+  "book": [
+   "grover-2-i-yposimeiosi"
+  ],
+  "title": "Παρουσίαση του «Γκρόβερ 2: Η Υποσημείωση» στο Enaestro bookcafé",
+  "venue": "Enaestro bookcafé",
+  "city": "Αθήνα",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Αναστασία Νάτσινα",
+    "role": "Αναπλ. Καθηγήτρια"
+   },
+   {
+    "name": "Παναγιώτης Παπαϊωάννου",
+    "role": "δικηγόρος / συγγραφέας"
+   },
+   {
+    "name": "Μπάμπης Μπατμανίδης",
+    "role": "μουσικός"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2022-04-20-fuit-grevena",
+  "date": "2022-04-20",
+  "date_precision": "day",
+  "book": [
+   "min-milas-den-einai-aparemfato",
+   "vatsnies"
+  ],
+  "title": "Παρουσίαση των βιβλίων «Μην มιλάς» & «Βατσ'νιές» στα Γρεβενά",
+  "venue": "Fuit Art Cafe",
+  "city": "Γρεβενά",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Κατερίνα Βάιου",
+    "role": "εκπαιδευτικός"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2022-04-15-zogia-thessaloniki",
+  "date": "2022-04-15",
+  "date_precision": "day",
+  "book": [
+   "min-milas-den-einai-aparemfato",
+   "vatsnies"
+  ],
+  "title": "Παρουσίαση των βιβλίων «Μην μιλάς» & «Βατσ'νιές» στη Θεσσαλονίκη",
+  "venue": "Ζώγια",
+  "city": "Θεσσαλονίκη",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Μαρία Θεοχάρη",
+    "role": "μεταφράστρια"
+   },
+   {
+    "name": "Βασίλης Τσιγαρίδας",
+    "role": "συγγραφέας"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2021-11-27-heraklion-kalokairinos",
+  "date": "2021-11-27",
+  "date_precision": "day",
+  "book": [
+   "vatsnies"
+  ],
+  "title": "Παρουσίαση της συλλογής «Βατσ'νιές» στο Ηράκλειο",
+  "venue": "Κοινωνικός Χώρος, Ίδρυμα Καλοκαιρινού",
+  "city": "Ηράκλειο",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Μαρία Βρέντζου",
+    "role": "συγγραφέας"
+   },
+   {
+    "name": "Δημήτρης Γραμμένος",
+    "role": "Ερευνητής ΙΤΕ"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2021-10-20-arokaria",
+  "date": "2021-10-20",
+  "date_precision": "day",
+  "book": [
+   "vatsnies"
+  ],
+  "title": "Παρουσίαση της συλλογής «Βατσ'νιές» στο Café Αροκάρια",
+  "venue": "Café Αροκάρια",
+  "city": "Ρέθυμνο",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Φώτης Δούσος",
+    "role": "συγγραφέας"
+   },
+   {
+    "name": "Ελένη Δάγκα",
+    "role": "σκηνοθέτις"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2019-12-29-fuit-grevena",
+  "date": "2019-12-29",
+  "date_precision": "day",
+  "book": [
+   "skalomenoi-se-ena-mpar"
+  ],
+  "title": "Παρουσίαση του «Σκαλωμένοι σε ένα μπαρ» στα Γρεβενά",
+  "venue": "Fuit Art Cafe",
+  "city": "Γρεβενά",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Κατερίνα Βάιου",
+    "role": "εκπαιδευτικός"
+   },
+   {
+    "name": "Γιώργος Καζαντζίδης",
+    "role": "εκπαιδευτικός"
+   },
+   {
+    "name": "Γιώργος Κόφτης",
+    "role": "εικαστικός"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "https://www.facebook.com/permalink.php?story_fbid=1714374398695466&id=150065845126337",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2019-12-19-aition-athens",
+  "date": "2019-12-19",
+  "date_precision": "day",
+  "book": [
+   "skalomenoi-se-ena-mpar"
+  ],
+  "title": "Παρουσίαση του «Σκαλωμένοι σε ένα μπαρ» στον Πολυχώρο Αίτιον",
+  "venue": "Πολυχώρος Αίτιον",
+  "city": "Αθήνα",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Ελεονώρα Ορφανίδου",
+    "role": "δημοσιογράφος"
+   },
+   {
+    "name": "Αλέξανδρος Χατζής",
+    "role": "σκηνοθέτης"
+   },
+   {
+    "name": "Χρήστος Χατζής",
+    "role": "συγγραφέας"
+   },
+   {
+    "name": "Νότης Κατσέλης",
+    "role": "κριτικός"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "https://www.facebook.com/stergios.chatzikyriakidis/posts/10101655255462186",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2019-01-11-zogia-thessaloniki",
+  "date": "2019-01-11",
+  "date_precision": "day",
+  "book": [
+   "grover"
+  ],
+  "title": "Παρουσίαση του μυθιστορήματος «Γκρόβερ» στη Θεσσαλονίκη",
+  "venue": "Ζώγια",
+  "city": "Θεσσαλονίκη",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Ελένη Αγαθοπούλου",
+    "role": "Καθηγήτρια ΑΠΘ"
+   },
+   {
+    "name": "Μπάμπης Μπατμανίδης",
+    "role": "μουσικός"
+   },
+   {
+    "name": "Ελένη Παπαργυρίου",
+    "role": "Επίκ. Καθηγήτρια"
+   },
+   {
+    "name": "Ζήσης Σέγκλιας",
+    "role": "συνθέτης"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "https://www.facebook.com/zogia.kafe/posts/990261514501947",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2018-10-12-aition-athens",
+  "date": "2018-10-12",
+  "date_precision": "day",
+  "book": [
+   "grover"
+  ],
+  "title": "Παρουσίαση του μυθιστορήματος «Γκρόβερ» στην Αθήνα",
+  "venue": "Πολυχώρος Αίτιον",
+  "city": "Αθήνα",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Ελεονώρα Ορφανίδου",
+    "role": "δημοσιογράφος"
+   },
+   {
+    "name": "Χρήστος Ξανθάκης",
+    "role": "δημοσιογράφος"
+   },
+   {
+    "name": "Μανώλης Γρηγοράκης",
+    "role": "συγγραφέας"
+   },
+   {
+    "name": "Νότης Κατσέλης",
+    "role": "κριτικός"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "",
+  "video_url": "",
+  "upcoming": false
+ },
+ {
+  "id": "2017-12-27-fuit-grevena",
+  "date": "2017-12-27",
+  "date_precision": "day",
+  "book": [
+   "grover"
+  ],
+  "title": "Παρουσίαση του «Γκρόβερ» στα Γρεβενά",
+  "venue": "Fuit Art Cafe",
+  "city": "Γρεβενά",
+  "country": "GR",
+  "speakers": [
+   {
+    "name": "Αλέξανδρος Χατζής",
+    "role": "σκηνοθέτης"
+   },
+   {
+    "name": "Χρήστος Χατζής",
+    "role": "συγγραφέας"
+   },
+   {
+    "name": "Γιώργος Καζαντζίδης",
+    "role": "εκπαιδευτικός"
+   }
+  ],
+  "url": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "photos_url": "https://www.facebook.com/pg/Fuit-art-cafe-150065845126337/photos/?tab=album&album_id=1143659455766966",
+  "video_url": "",
+  "upcoming": false
+ }
+]

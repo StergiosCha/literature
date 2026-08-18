@@ -1,0 +1,428 @@
+[
+ {
+  "slug": "istories-aplis-logikis",
+  "title_el": "Ιστορίες Απλής Λογικής και Λίγης Θλίψης",
+  "title_en": "Stories of Simple Logic and a Little Sadness",
+  "translated": true,
+  "subtitle_el": "",
+  "subtitle_en": "",
+  "kind": "short-stories",
+  "language": "el",
+  "publisher": "Νήσος",
+  "publisher_url": "https://nissos.gr",
+  "year": 2025,
+  "month": 11,
+  "isbn": "9789605892630",
+  "pages": 166,
+  "size": "20x12",
+  "price_eur": 12.0,
+  "blurb_el": "Οι ιστορίες της ζωής μας είναι συνήθως εύλογες, αλλά όσο κι αν το θέλουμε, όχι πάντα λογικές. Η απόσταση ανάμεσα σ΄αυτήν την προσδοκία και την πραγματικότητα γεννά μια ειδική θλίψη. Λίγη, όχι πολλή. Στις \"Ιστορίες απλής λογικής και λίγης θλίψης\", ένας αφηγητής περιδιαβάζει απορημένος, διασκεδασμένος, και πάντα λίγο θλιμμένος, ανάμεσα σε ιστορίες με υπέρμετρες φιλοδοξίες λογικής. «Κάποιος έπεσε», ενημερώνει από το πάτωμα την παρέα ο μεθυσμένος· «Μάλλον πέθανα», συμπεραίνει ο ξενύχτης ξυπνώντας ανάμεσα σε γαρύφαλλα· δώδεκα κιλά χλωρίνη, μαθηματικά υπολογισμένα, απαιτούνται για να λιώσουν οι νεκροί σ΄ ένα χωριό της Ηπείρου. Σ΄αυτή τη συλλογή, ο Στέργιος Χατζηκυριακίδης, στέκεται πλάι σε εκείνες κι εκείνους που προσπάθησαν να ερμηνεύσουν τον κόσμο με τη δική τους, ο καθένας και η καθεμία, απλή λογική. Και καταγράφει αυτή τη λίγη, τόσο ανθρώπινη θλίψη που αφήνει πίσω του το εύλογο καθώς καταρρέει μέσα στο ίδιο του το βάρος.",
+  "blurb_source": "https://www.politeianet.gr/el/products/9789605892630 (API dsm, back cover)",
+  "contents": [
+   "Το μηχανάκι της Χαριτάκη",
+   "Λίγη θλίψη",
+   "Pai(i) Lars",
+   "Μάλλον πέθανα",
+   "Καλημέρα, καλημέρα! Καλησπέρα, καλησπέρα!",
+   "Το πίσω κράνος είναι βορειοευρωπαϊκό",
+   "LG Τηλεδιοίκηση",
+   "Ο γραφειοκρατικός θάνατος της Νούλατζη",
+   "Μανωλιών Ανάβασις",
+   "Ο θάνατος του μπατζανάκη μου",
+   "Εγώ έπεσα;",
+   "Ο ανιψιός της Ρένας Βλαχοπούλου",
+   "Μια Μαργαρίτα",
+   "Χλωρίνη δώδεκα κιλά",
+   "Ο τελευταίος κάτοικος",
+   "Ο απατεώνας του ορεινού όγκου"
+  ],
+  "cover": "covers/istories-aplis-logikis.jpg",
+  "cover_source": "https://cdn.politeianet.gr/data/images/Product/392873/1/el/3005-0465.jpg",
+  "cover_resolution": "681x1200",
+  "buy": [
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605892630-stergios-istories-aplhs-logikhs-kai-lighs-thlipshs"
+   },
+   {
+    "shop": "Πρωτοπορία",
+    "url": "https://www.protoporia.gr/istories-aplis-logikis-kai-ligis-thlipsis-p-9789605892630.html"
+   }
+  ],
+  "reviews": [],
+  "events": [
+   "2025-12-13-themelio"
+  ],
+  "awards": [],
+  "notes": "Published late 2025. Listed on Politeia and Protoporia catalogs.",
+  "texts": [
+   "xlorini"
+  ]
+ },
+ {
+  "slug": "texniti-noimosyni-llm",
+  "title_el": "Τεχνητή Νοημοσύνη και Μεγάλα Γλωσσικά Μοντέλα: Ιστορία, Χρήσεις, Ανησυχίες",
+  "title_en": "Artificial Intelligence and Large Language Models: History, Uses, Concerns",
+  "translated": true,
+  "subtitle_el": "Ιστορία, Χρήσεις, Ανησυχίες",
+  "subtitle_en": "History, Uses, Concerns",
+  "kind": "non-fiction",
+  "language": "el",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2024,
+  "month": 11,
+  "isbn": "9789605315115",
+  "pages": 148,
+  "size": "21x14",
+  "price_eur": 15.0,
+  "blurb_el": "Πώς λειτουργούν τα Μεγάλα Γλωσσικά Μοντέλα (LLMs); Ποια είναι η ιστορία πίσω από την αλματώδη εξέλιξη της Τεχνητής Νοημοσύνης (ΤΝ) τα τελευταία χρόνια; Ένας προσιτός οδηγός που εξηγεί με απλά λόγια και χιούμορ την τεχνολογία του ChatGPT, εξετάζοντας παράλληλα τις κοινωνικές, γλωσσικές και ηθικές προεκτάσεις της.",
+  "blurb_source": "https://diavlos-books.gr/index.php?route=product/product&product_id=823",
+  "contents": [],
+  "cover": "covers/texniti-noimosyni-llm.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1226.jpg",
+  "cover_resolution": "379x567",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=823"
+   },
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605315115-chatzikuriakidis-stergios-diaulos-texniti-noimosuni-kai-megala-glossika-montela"
+   },
+   {
+    "shop": "Πρωτοπορία",
+    "url": "https://www.protoporia.gr/texniti-noimosyni-kai-megala-glossika-montela-p-9789605315115.html"
+   }
+  ],
+  "reviews": [],
+  "events": [
+   "2024-12-29-cafe-lotos",
+   "2025-03-27-enaestro"
+  ],
+  "awards": [],
+  "notes": "Non-fiction educational guide on AI & LLMs.",
+  "texts": []
+ },
+ {
+  "slug": "grover-2-i-yposimeiosi",
+  "title_el": "Γκρόβερ 2: Η Υποσημείωση",
+  "title_en": "Grover 2: The Footnote",
+  "translated": true,
+  "subtitle_el": "Η Υποσημείωση",
+  "subtitle_en": "The Footnote",
+  "kind": "novel",
+  "language": "el",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2024,
+  "month": 4,
+  "isbn": "9789605315054",
+  "pages": 206,
+  "size": "21x14",
+  "price_eur": 15.0,
+  "blurb_el": "Ο Γκρόβερ επιστρέφει επτά χρόνια μετά. Η ζωή του έχει αλλάξει δραματικά: είναι πλέον ακαδημαϊκός στο Γκέτεμποργκ της Σουηδίας, έχει οικογένεια και μια καθημερινότητα γεμάτη υποχρεώσεις. Ωστόσο, ο Στυλιανός Ασλανίδης (Στελάκος) συνεχίζει ένα ταξίδι που ξεκίνησε στο Λονδίνο το 2008, αντιμετωπίζοντας τις υπαρξιακές του ανησυχίες με το γνώριμο αυτοσαρκαστικό χιούμορ.",
+  "blurb_source": "https://diavlos-books.gr/index.php?route=product/product&product_id=519",
+  "contents": [],
+  "cover": "covers/grover-2-i-yposimeiosi.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1218.jpg",
+  "cover_resolution": "1679x2532",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=519"
+   },
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605315054-chatzikuriakidis-stergios-diaulos-gkrober-2-i-uposimeiosi"
+   },
+   {
+    "shop": "Πρωτοπορία",
+    "url": "https://www.protoporia.gr/gkrober-2-i-yposimeiosi-p-9789605315054.html"
+   }
+  ],
+  "reviews": [],
+  "events": [
+   "2024-03-21-enaestro-exarchia",
+   "2024-grover2-thessaloniki",
+   "2024-grover2-grevena"
+  ],
+  "awards": [],
+  "notes": "Sequel to Grover (2017).",
+  "texts": [
+   "grover2"
+  ]
+ },
+ {
+  "slug": "min-milas-den-einai-aparemfato",
+  "title_el": "Μην Μιλάς, Δεν Είναι Απαρέμφατο",
+  "title_en": "Don't Speak, It's Not an Infinitive",
+  "translated": true,
+  "subtitle_el": "",
+  "subtitle_en": "",
+  "kind": "novel",
+  "language": "el",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2021,
+  "month": 9,
+  "isbn": "9789605314781",
+  "pages": 172,
+  "size": "21x14",
+  "price_eur": 12.0,
+  "blurb_el": "Ο ήρωας του μυθιστορήματος, ένας νεαρός γλωσσολόγος, ζει μεταξύ Λονδίνου και Αθήνας προσπαθώντας να ολοκληρώσει τη διδακτορική του διατριβή. Μέσα από μια σπαρταριστή πρωτοπρόσωπη αφήγηση, τέσσερις χαρακτήρες αντιμετωπίζουν την πραγματικότητα μιας δυστοπικής κωμωδίας που εξελίσσεται σε ρεαλιστική τραγωδία.",
+  "blurb_source": "https://www.politeianet.gr/products/9789605314781-chatzikuriakidis-stergios-diaulos-min-milas-den-einai-aparemfato",
+  "contents": [],
+  "cover": "covers/min-milas-den-einai-aparemfato.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1178.jpg",
+  "cover_resolution": "555x836",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=778"
+   },
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605314781-chatzikuriakidis-stergios-diaulos-min-milas-den-einai-aparemfato"
+   }
+  ],
+  "reviews": [
+   "olafaq-2022-min-milas",
+   "diastixo-2022-vatsnies-min-milas",
+   "zougla-2022-vatsnies-min-milas"
+  ],
+  "events": [
+   "2022-04-20-fuit-grevena",
+   "2022-04-15-zogia-thessaloniki"
+  ],
+  "awards": [],
+  "notes": "Third part of the informal trilogy (Grover, Skalomenoi se ena mpar, Min milas).",
+  "texts": [
+   "tsotyli",
+   "tritoklitoi"
+  ]
+ },
+ {
+  "slug": "vatsnies",
+  "title_el": "Βατσ'νιές: Πυκνές Καρτ-Ποστάλ από τα Βαλκάνια (και ενίοτε εμπαθείς)",
+  "title_en": "Blackberries: Dense Postcards from the Balkans (and Sometimes Malicious)",
+  "translated": true,
+  "subtitle_el": "Πυκνές Καρτ-Ποστάλ από τα Βαλκάνια (και ενίοτε εμπαθείς)",
+  "subtitle_en": "Dense Postcards from the Balkans (and Sometimes Malicious)",
+  "kind": "short-stories",
+  "language": "el",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2021,
+  "month": 2,
+  "isbn": "9789605314644",
+  "pages": 172,
+  "size": "21x14",
+  "price_eur": 12.0,
+  "blurb_el": "Μια συλλογή δέκα διηγημάτων που ταξιδεύει τον αναγνώστη στις μικρές επαρχιακές πόλεις της Βόρειας Ελλάδας και της Νότιας Βαλκανικής. Μικρές, πυκνές ιστορίες γεμάτες χιούμορ, μελαγχολία και οξυδερκή παρατήρηση των νοοτροπιών της ελληνικής επαρχίας.",
+  "blurb_source": "https://neoplanodion.gr/2021/11/18/vatsnies-pyknes-kart-postal/",
+  "contents": [
+   "Νταήδες αρχίδια και αρχίδια νταήδες"
+  ],
+  "cover": "covers/vatsnies.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1156.jpg",
+  "cover_resolution": "554x831",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=756"
+   },
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605314644-chatzikuriakidis-stergios-diaulos-batsnies"
+   },
+   {
+    "shop": "Πρωτοπορία",
+    "url": "https://www.protoporia.gr/batsnies-p-9789605314644.html"
+   }
+  ],
+  "reviews": [
+   "diastixo-2022-vatsnies-min-milas",
+   "neoplanodion-2021-vatsnies",
+   "fractal-2021-vatsnies",
+   "zougla-2022-vatsnies-min-milas",
+   "radio-2022-ntames-spathi"
+  ],
+  "events": [
+   "2022-04-20-fuit-grevena",
+   "2022-04-15-zogia-thessaloniki",
+   "2021-11-27-heraklion-kalokairinos",
+   "2021-10-20-arokaria"
+  ],
+  "awards": [],
+  "notes": "First short story collection in Greek.",
+  "texts": [
+   "isouzou"
+  ]
+ },
+ {
+  "slug": "skalomenoi-se-ena-mpar",
+  "title_el": "Σκαλωμένοι σε Ένα Μπαρ",
+  "title_en": "Stuck in a Bar",
+  "translated": true,
+  "subtitle_el": "",
+  "subtitle_en": "",
+  "kind": "novel",
+  "language": "el",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2019,
+  "month": 11,
+  "isbn": "9789605314378",
+  "pages": 140,
+  "size": "21x14",
+  "price_eur": 10.0,
+  "blurb_el": "Τρεις φίλοι συναντιούνται σε ένα μπαρ στη Θεσσαλονίκη και αναπολούν τα νεανικά τους χρόνια, τις φιλίες, τους έρωτες και τις ματαιώσεις τους. Μια ιστορία για τη γενιά που μεγάλωσε μέσα στην κρίση, εγκατέλειψε το εξωτερικό για να επιστρέψει στην επαρχία και προσπαθεί να συμφιλιωθεί με τις εσωτερικές της αντιφάσεις.",
+  "blurb_source": "https://www.kathimerini.gr/culture/books/1093221/skalomenoi-stis-filies-tis-ellinikis-eparchias/",
+  "contents": [],
+  "cover": "covers/skalomenoi-se-ena-mpar.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1110.jpg",
+  "cover_resolution": "830x1247",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=710"
+   },
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605314378-chatzikuriakidis-stergios-diaulos-skalomenoi-se-ena-mpar"
+   }
+  ],
+  "reviews": [
+   "kathimerini-2019-skalomenoi"
+  ],
+  "events": [
+   "2019-12-29-fuit-grevena",
+   "2019-12-19-aition-athens"
+  ],
+  "awards": [],
+  "notes": "Second novel.",
+  "texts": [
+   "skalomenoi"
+  ]
+ },
+ {
+  "slug": "short-stories-en",
+  "title_el": "Short Stories",
+  "title_en": "Short Stories",
+  "translated": false,
+  "subtitle_el": "",
+  "subtitle_en": "",
+  "kind": "short-stories",
+  "language": "en",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2019,
+  "month": 5,
+  "isbn": "",
+  "pages": 96,
+  "size": "20x12",
+  "price_eur": 8.0,
+  "blurb_el": "A collection of short stories written in English with humor, wordplay, and philosophical observations on language, identity, and life in transit.",
+  "blurb_source": "https://diavlos-books.gr/index.php?route=product/product&product_id=245",
+  "contents": [],
+  "cover": "covers/short-stories-en.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1108.jpg",
+  "cover_resolution": "718x1010",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=245"
+   }
+  ],
+  "reviews": [],
+  "events": [],
+  "awards": [],
+  "notes": "English short story collection published by Diavlos.",
+  "texts": []
+ },
+ {
+  "slug": "grover",
+  "title_el": "Γκρόβερ",
+  "title_en": "Grover",
+  "translated": true,
+  "subtitle_el": "",
+  "subtitle_en": "",
+  "kind": "novel",
+  "language": "el",
+  "publisher": "Δίαυλος",
+  "publisher_url": "https://diavlos-books.gr/",
+  "year": 2017,
+  "month": 10,
+  "isbn": "9789605313937",
+  "pages": 120,
+  "size": "21x14",
+  "price_eur": 10.0,
+  "blurb_el": "Ο Γκρόβερ, ένας τριαντάχρονος φιλόλογος, προσπαθεί να βρει το δρόμο του στη σύγχρονη Αθήνα της κρίσης. Ένα μυθιστόρημα που ξεκίνησε μετά τα γεγονότα του Δεκεμβρίου 2008 και αποτυπώνει με καυστικό χιούμορ και ειλικρίνεια τα αδιέξοδα και τις αναζητήσεις μιας ολόκληρης γενιάς.",
+  "blurb_source": "https://diastixo.gr/kritikes/ellinikipezografia/10899-grover-chatzikiriakidis",
+  "contents": [],
+  "cover": "covers/grover.jpg",
+  "cover_source": "https://diavlos-books.gr/image/catalog/migrationpics/1051.jpg",
+  "cover_resolution": "591x901",
+  "buy": [
+   {
+    "shop": "Δίαυλος",
+    "url": "https://diavlos-books.gr/index.php?route=product/product&product_id=519"
+   },
+   {
+    "shop": "Πολιτεία",
+    "url": "https://www.politeianet.gr/products/9789605313937-chatzikuriakidis-stergios-diaulos-gkrober"
+   },
+   {
+    "shop": "Πρωτοπορία",
+    "url": "https://www.protoporia.gr/gkrober-p-9789605313937.html"
+   }
+  ],
+  "reviews": [
+   "diastixo-2018-grover",
+   "paok24-2018-grover-interview",
+   "youtube-2022-ntames-spathi"
+  ],
+  "events": [
+   "2019-01-11-zogia-thessaloniki",
+   "2018-10-12-aition-athens",
+   "2017-12-27-fuit-grevena"
+  ],
+  "awards": [],
+  "notes": "Debut novel.",
+  "texts": [
+   "grover"
+  ]
+ },
+ {
+  "slug": "dikaioma-stin-antifasi",
+  "title_el": "Δικαίωμα στην Αντίφαση",
+  "title_en": "Right to Contradiction",
+  "translated": true,
+  "subtitle_el": "",
+  "subtitle_en": "",
+  "kind": "poetry",
+  "language": "el",
+  "publisher": "Ιδιωτική έκδοση",
+  "publisher_url": "",
+  "year": 2010,
+  "month": 0,
+  "isbn": "",
+  "pages": 48,
+  "size": "",
+  "price_eur": 0.0,
+  "blurb_el": "Ποιητική συλλογή / περιορισμένη καλλιτεχνική έκδοση (2010). Διατίθεται σε ψηφιακή μορφή κατόπιν επικοινωνίας με τον συγγραφέα.",
+  "blurb_source": "https://sites.google.com/view/stergioschatzikyriakidis/home",
+  "contents": [],
+  "cover": "",
+  "cover_source": "",
+  "cover_resolution": "",
+  "buy": [],
+  "reviews": [],
+  "events": [],
+  "awards": [],
+  "notes": "Limited edition art book (2010); free digital copy on request from author; no physical commercial copies in stock.",
+  "texts": []
+ }
+]
