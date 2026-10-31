@@ -1,5 +1,20 @@
 [
  {
+  "slug": "xlorini-en",
+  "title": "Twelve Kilos of Bleach",
+  "kind_label": "Short story · English translation",
+  "kind": "story",
+  "blurb": "A daughter, a mother who won’t decompose, and Algebraic Topology as a method of mourning.",
+  "note": "English translation of «Χλωρίνη δώδεκα κιλά», from the collection Stories of Simple Logic and a Little Sadness, Nisos Publications",
+  "note_html": "English translation of «Χλωρίνη δώδεκα κιλά», from the collection <em>Stories of Simple Logic and a Little Sadness</em>, Nisos Publications",
+  "minutes": 15,
+  "book": "istories-aplis-logikis",
+  "words": 2920,
+  "collection": "",
+  "cover": "istories-aplis-logikis",
+  "cover_credit": ""
+ },
+ {
   "slug": "kalimera",
   "title": "Καλημέρα, καλημέρα! Καλησπέρα, καλησπέρα!",
   "kind_label": "Διήγημα",
